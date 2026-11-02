@@ -1,0 +1,441 @@
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 10224)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 20336)
+VBCSCompiler prewarm took 19.47 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.7f1 (b22767f04f04) revision 11675495'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 16125 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-chand" at "2026-11-02T14:46:22.7806789Z"
+Process architecture: x64
+Date: 2026-11-02T14:46:22Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 19688, path: "C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              8b652fa6872b4d679a555820e13e2981
+  Correlation Id:          e4e000ca94a78f7f33f9949a7a9a3178
+  External correlation Id: 4863733292642604563
+  Machine Id:              i4upwZfzag53omJoApdRZUDUXnk=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-chand" (connect: 0.00s, validation: 0.00s, handshake: 0.07s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-chand-notifications" at "2026-11-02T14:46:22.8517219Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token 5gc5PtSFV7...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469957777801-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.09s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.7f1\Editor\Unity.exe
+-projectpath
+C:\Users\chand\Downloads\CityRunner3D (2)\CityRunner3D
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-chand
+-hubSessionId
+dfe98ccb-f869-4f7e-ac48-8a69262cfd0e
+-accessToken
+5gc5PtSFV74B2C2InNsLYhB4yXMW_4Wuwp_aK8Q-HY400cf
+Successfully changed project path to: C:\Users\chand\Downloads\CityRunner3D (2)\CityRunner3D
+C:/Users/chand/Downloads/CityRunner3D (2)/CityRunner3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [17536]  Target information:
+
+Player connection [17536]  * "[IP] 192.168.29.27 [Port] 55504 [Flags] 2 [Guid] 654984712 [EditorId] 654984712 [Version] 1048832 [Id] WindowsEditor(7,chinna) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17536] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17536] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-18492" after 0.2 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: ecfd0e74e34558874ac1c55c73192e35
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/chand/Downloads/CityRunner3D (2)/CityRunner3DUnity Data Store running and initialised
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.7f1 (b22767f04f04)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=262144, entitiesPerBlock=1024, blocksPerSlotPage=0, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/chand/Downloads/CityRunner3D (2)/CityRunner3D/Assets
+[D3D12 Device Filter] Vendor Name: Intel
+[D3D12 Device Filter] Device Name: Intel(R) UHD Graphics
+[D3D12 Device Filter] Driver Version: 30.0.101.1960
+[D3D12 Device Filter] Feature Level: 12.1
+[D3D12 Device Filter] Graphics Memory: 8062 MB
+[D3D12 Device Filter] Processor Count: 8
+[D3D12 Device Filter] Device Type: Integrated
+[D3D12 Device Filter] D3D12 API denied by user filter: {"Vendor": "Intel", "Device Type:": Integrated}
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x46b3)
+    Vendor:   Intel
+    VRAM:     8062 MB
+    Driver:   30.0.101.1960
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.522432 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  3.540 seconds
+Domain Reload Profiling: 7262ms
+	BeginReloadAssembly (455ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (284ms)
+	initialDomainReloadingComplete (804ms)
+	LoadAllAssembliesAndSetupDomain (2167ms)
+		LoadAssemblies (434ms)
+		TypeCache.Refresh (1974ms)
+			TypeCache.ScanAssembly (1673ms)
+		AnalyzeDomain (2ms)
+	FinalizeReload (3542ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (4ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (188ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (2080ms)
+			EditorAssembliesLoaded (5ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 10 packages:
+  Built-in packages:
+    com.unity.modules.ai@1.0.0 (location: C:\Users\chand\Downloads\CityRunner3D (2)\CityRunner3D\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\chand\Downloads\CityRunner3D (2)\CityRunner3D\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\chand\Downloads\CityRunner3D (2)\CityRunner3D\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\chand\Downloads\CityRunner3D (2)\CityRunner3D\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\chand\Downloads\CityRunner3D (2)\CityRunner3D\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\chand\Downloads\CityRunner3D (2)\CityRunner3D\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\chand\Downloads\CityRunner3D (2)\CityRunner3D\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\chand\Downloads\CityRunner3D (2)\CityRunner3D\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\chand\Downloads\CityRunner3D (2)\CityRunner3D\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\chand\Downloads\CityRunner3D (2)\CityRunner3D\Library\PackageCache\com.unity.modules.hierarchycore)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.01 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.7f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/chand/Downloads/CityRunner3D (2)/CityRunner3D
+ExitCode: 0 Duration: 0s829ms
+[175/182    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.73 seconds), 1 items updated, 182 evaluated
+AssetDatabase: script compilation time: 2.240897s
+Begin MonoManager ReloadAssembly
+Total cache size 27760976
+Total cache size after purge 27760976, took 00:00:00.1242866
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.683 seconds
+Domain Reload Profiling: 1284ms
+	BeginReloadAssembly (357ms)
+		DisableScriptedObjects (82ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (152ms)
+		LoadAssemblies (146ms)
+		TypeCache.Refresh (6ms)
+		AnalyzeDomain (6ms)
+			BuildScriptInfoCaches (4ms)
+	FinalizeReload (686ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (116ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Starting new worker id: 0 with log in C:/Users/chand/Downloads/CityRunner3D (2)/CityRunner3D/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=bd7494851a066194ab8d71e6129f248d): Total: 4.009 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1028 ms
+		Asset DB Callback time: managed=39 ms, native=40 ms
+		Scripting: domain reloads=1, domain reload time=644 ms, compile time=2245 ms, other=10 ms
+		Project Asset Count: scripts=45, non-scripts=12
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 42.786ms
+	ApplyChangesToAssetFolders: 0.884ms
+	Scan: 29.438ms
+	Collect global state as custom dependencies: 15.157ms
+	CategorizeScriptCompilationAssets: 0.658ms
+	ProcessAssetsWithTransientArtifactChanges: 1.689ms
+	CategorizeAssets: 0.874ms
+	CompileScripts: 2245.349ms
+	ImportOutOfDateAssets: 702.269ms (687.927ms without children)
+		UnloadImportedAssets: 2.112ms
+		ImportSchedulerStart: 12.202ms
+	PostProcessAllAssets: 39.858ms
+		MonoPostProcessAllAssets: 39.755ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 14.885ms
+			SyncVS.PostprocessSyncProject 4.221ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.841ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.037ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.384ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.235ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.222ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.120ms
+	UnloadStreamsBegin: 2.097ms
+	Untracked: 885.255ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Scanning for USB devices : 0.914ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-CityRunner3D
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/GamePlay.unity'
+	Deserialize:            11.633 ms
+	Integration:            22.636 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.068 ms
+	Total Operation Time:   34.338 ms
+Unloading 29 unused Assets / (475.7 KB). Loaded Objects now: 762.
+Memory consumption went from 233.4 MB to 232.9 MB.
+Total: 8.372300 ms (FindLiveObjects: 0.204500 ms CreateObjectMapping: 0.023600 ms MarkObjects: 7.481500 ms  DeleteObjects: 0.229600 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+Worker ready: AssetImportWorkerHW0 0
+[LAYOUT] About to save layout C:\Users\chand\Downloads\CityRunner3D (2)\CityRunner3D\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/chand/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+[Project] Loading completed in 17.053 seconds
+	Project init time: 				15.324 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.224 seconds
+		Asset Database init time: 		1.186 seconds
+		Global illumination init time: 	0.031 seconds
+		Assemblies load time: 			7.473 seconds
+		Unity extensions init time: 	0.001 seconds
+		Asset Database refresh time: 	4.010 seconds
+	Scene opening time: 			1.537 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1793630799804,"processId":18492,"projectLoad":17.0526973,"projectInit":15.3241835,"templateInit":0.0,"packageManagerInit":0.2240696,"assetDatabaseInit":1.1858683,"globalIlluminationInit":0.031249,"assembliesLoad":7.4726466,"unityExtensionsInit":0.001019,"assetDatabaseRefresh":4.0103021,"sceneOpening":1.5370381}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1793630799804,"processId":18492,"editorVersion":"6000.6.7f1 (b22767f04f04)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Created GICache directory at C:/Users/chand/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.025s, timestamps: [18.277 - 18.302]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "5gc5PtSF"... (expires: 2026-11-02T16:45:29Z)
+[Licensing::Client] Successfully resolved entitlement details
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.553 seconds
+Domain Reload Profiling: 2312ms
+	BeginReloadAssembly (495ms)
+		DisableScriptedObjects (158ms)
+		CreateAndSetChildDomain (113ms)
+	RebuildCommonClasses (13ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (173ms)
+		LoadAssemblies (151ms)
+		TypeCache.Refresh (5ms)
+		AnalyzeDomain (3ms)
+	FinalizeReload (1556ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (82ms)
+			ProcessInitializeOnLoadMethodAttributes (121ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (774ms)
+
+Asset Pipeline Refresh (id=3f0a1e164d33f594590b0e4604f9231d): Total: 2.489 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1637 ms
+		Asset DB Callback time: managed=42 ms, native=10 ms
+		Scripting: domain reloads=1, domain reload time=795 ms, compile time=4 ms, other=0 ms
+		Project Asset Count: scripts=45, non-scripts=12
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 2.266ms
+	ApplyChangesToAssetFolders: 0.080ms
+	Collect global state as custom dependencies: 1.212ms
+	ProcessAssetsWithTransientArtifactChanges: 2.581ms
+	CategorizeAssets: 0.273ms
+	CompileScripts: 4.019ms
+	ImportOutOfDateAssets: 1559.192ms (1555.916ms without children)
+		UnloadImportedAssets: 3.006ms
+		ImportSchedulerStart: 0.247ms
+	PostProcessAllAssets: 51.747ms
+		VCAutoAddAssetPostprocess 0.411ms
+		PostProcessCallbackCreateDeferredMaterials 0.086ms
+		ShaderAssetModifiedCallback 0.050ms
+		MonoPostProcessAllAssets: 42.531ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 8.050ms
+			AssetPostprocessor.OnPostprocessAllAssets 6.984ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 6.512ms
+			AssetChangedListener.OnPostprocessAllAssets 2.284ms
+			SyncVS.PostprocessSyncProject 2.047ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.471ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.977ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.782ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.711ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.341ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.337ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.301ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.257ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.231ms
+			AssetEvents.OnPostprocessAllAssets 0.225ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.212ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.190ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.182ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.177ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.164ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.106ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.103ms
+	PostAssetChangesProfiler: 0.478ms
+	UnloadStreamsBegin: 2.215ms
+	Untracked: 827.927ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.629 ms
+	Integration:            104.746 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.118 ms
+	Total Operation Time:   105.495 ms
+[Licensing::Client] Successfully resolved entitlement details
+TrimDiskCacheJob: Current cache size 0mb
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.603 ms
+	Integration:            13.570 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.120 ms
+	Total Operation Time:   14.295 ms
+Unloading 69 unused Assets / (17.3 MB). Loaded Objects now: 1718.
+Memory consumption went from 379.1 MB to 361.8 MB.
+Total: 18.538500 ms (FindLiveObjects: 0.331900 ms CreateObjectMapping: 0.017400 ms MarkObjects: 14.699300 ms  DeleteObjects: 3.304800 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+MonoPathRemapper: Attempts to remap: 2194; Successful remaps: 40
+Serialized file version minimum: 23, current 23
+[LAYOUT] About to save layout C:\Users\chand\Downloads\CityRunner3D (2)\CityRunner3D\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/chand/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-chand-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-chand channel disconnected successfully.
+Shut down UDS service system complete
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 0000000000003EBC, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000003F80, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000003EBC, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000003F80, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 3672
+VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1793630889022,"processId":18492,"allocatedMemory":10765653,"memoryLabels":[{"Default":153566},{"Permanent":15516},{"NewDelete":71285},{"Thread":4197984},{"Manager":31261},{"VertexData":8},{"Geometry":824},{"Texture":24},{"Shader":838577},{"Material":132},{"GfxDevice":55968},{"Animation":952},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":17440},{"Input":42840},{"JobScheduler":256},{"TextLib":16598},{"Mono":48},{"ScriptingNativeRuntime":1210712},{"BaseObject":50192},{"Resource":1444},{"Renderer":2504},{"Transform":4781},{"File":16292},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":437400},{"StaticString":3808},{"Utility":2673882},{"Curl":48},{"PoolAlloc":2168},{"AI":80},{"TypeTree":8869},{"ScriptManager":18984},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7728},{"WebRequest":12993},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"Camera":729},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"EntityIdStore":33088},{"Gui":267},{"EditorUtility":105440},{"VersionControl":8},{"Undo":931},{"AssetDatabase":202401},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36921},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":260},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3600},{"Windowing":456},{"Licensing":12805},{"AssetReference":32},{"IPCStream":32}]}

@@ -1,0 +1,23 @@
+
+Server arguments:
+  --memory-size 1073741824
+  --shared-postfix ecfd0e74e34558874ac1c55c73192e35
+  --working-directory Library/DataStore
+  --silent-console
+  --shutdown-grace 0
+  --client-process-check 0
+  --uds-log-file C:/Users/chand/Downloads/CityRunner3D (2)/CityRunner3D/Logs/UDS-Service.log
+  --debug-log 2
+  -name
+  Unity.DataStore
+
+Initialising UDS system complete:
+  - System type: Service
+  - Resource namespace: ecfd0e74e34558874ac1c55c73192e35
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+Starting Unity Data Store Application
+Unity Data Store Application Complete
+Shut down UDS service system complete
